@@ -88,7 +88,7 @@ As of this writing, I'm working with the following versions of the software:
 
 		`nano /mnt/postgresql/postgresql.conf`
 		
-		Where  you see **listen_addresses**, add this line if it's okay for any host can try to connect:
+		Where  you see **listen_addresses**, add this line if it's okay for any host to try to connect:
 
 		`listen_addresses = '*'`
 
